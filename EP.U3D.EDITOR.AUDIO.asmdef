@@ -1,0 +1,20 @@
+{
+    "name": "EP.U3D.EDITOR.AUDIO",
+    "rootNamespace": "",
+    "references": [
+        "EP.U3D.LIBRARY.AUDIO",
+        "EP.U3D.EDITOR.BASE",
+        "EP.U3D.LIBRARY.BASE"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
