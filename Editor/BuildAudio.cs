@@ -28,7 +28,7 @@ namespace EP.U3D.EDITOR.AUDIO
 
         public virtual void Execute()
         {
-            AudioController controller = AssetDatabase.LoadAssetAtPath<AudioController>("Assets/" + Constants.AUDIO_CONTROLLER_PREFAB);
+            AudioController controller = AssetDatabase.LoadAssetAtPath<AudioController>($"Assets/{Constants.AUDIO_CONTROLLER_PREFAB}.prefab");
             string toast;
             if (controller)
             {
