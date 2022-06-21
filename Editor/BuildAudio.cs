@@ -70,7 +70,7 @@ namespace EP.U3D.EDITOR.AUDIO
                             item.subItems = new[] { new AudioSubItem() { Clip = clip } };
                         }
                         string cat = "OTHER";
-                        string[] strs = clip.name.Split("_");
+                        string[] strs = clip.name.Split('_');
                         if (strs.Length > 1) cat = strs[0];
                         List<AudioItem> list;
                         if (dict.TryGetValue(cat, out list) == false)
